@@ -1,0 +1,51 @@
+h1 {
+  color: rgb(4, 100, 226);
+  text-align: center;
+  margin-top: 30px;
+}
+p {
+  font-size: 15px;
+  margin-left: 54px;
+}
+.flex-container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+  margin-left: 5px;
+}
+
+.flex-container > div {
+  margin: 6%;
+  padding: 5px;
+  font-size: 48px;
+}
+
+.button {
+  background-color: rgb(4, 100, 226);
+  border-radius: 30px;
+  height: 40px;
+  width: 200px;
+  margin-left: -5px;
+
+  /* padding: 0; */
+  border: none;
+}
+
+button:hover {
+  background-color: red;
+}
+
+input#email {
+  height: 40px;
+  width: 450px;
+  margin-left: -130px;
+  margin-top: 45px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+input#password {
+  height: 40px;
+  width: 450px;
+  margin-left: -130px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
