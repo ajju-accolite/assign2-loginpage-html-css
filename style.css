@@ -5,23 +5,26 @@ html{
 .edit2{
   color: white;
   font-size: 13px;
-  margin-left: 20px;
+  margin-left: 117px;
 }
 
-
+.lft{
+  margin-left: 74px;
+}
 h1 {
   color: rgb(4, 100, 226);
   text-align: center;
   margin-top: 30px;
+  margin-bottom: -26px;
 }
 .edit {
   font-size: 15px;
-  margin-left: 54px;
+  margin-left: 150px;
   color: rgb(4, 100, 226);
 }
+
 .flex-container {
   display: flex;
-  /* background-color: DodgerBlue; */
   margin-left: 5px;
 }
 
@@ -36,7 +39,7 @@ h1 {
   border-radius: 30px;
   height: 40px;
   width: 200px;
-  margin-left: -5px;
+  margin-left: 100px;
 
   /* padding: 0; */
   border: none;
@@ -46,18 +49,43 @@ button:hover {
   background-color: red;
 }
 
+.edit:hover{
+  font-size: 16px;
+  color: red;
+}
+.edit2:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.ridge{
+ border-color: black;
+  border-style: ridge;
+  height: 350px;
+  width: 450px;
+  border-width: 0.5px;
+  /* border-radius: 10px; */
+}
 input#email {
   height: 40px;
-  width: 450px;
-  margin-left: -130px;
+  width: 370px;
+  margin-left: 10px;
   margin-top: 45px;
   border-radius: 15px;
   margin-bottom: 20px;
+  background-color: aliceblue;
 }
 input#password {
   height: 40px;
-  width: 450px;
-  margin-left: -130px;
+  width: 370px;
+  margin-left: 10px;
   border-radius: 15px;
   margin-bottom: 20px;
+  background-color: aliceblue;
+
+}
+
+div.sdiv{
+  margin-left: -82px;
+  margin-top: 80px;
 }
