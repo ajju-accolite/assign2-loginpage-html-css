@@ -1,14 +1,14 @@
-html{
-  background-color: black;
+html {
+  background-color: rgb(7, 7, 7);
 }
 
-.edit2{
+.edit2 {
   color: white;
   font-size: 13px;
   margin-left: 117px;
 }
 
-.lft{
+.lft {
   margin-left: 74px;
 }
 h1 {
@@ -26,6 +26,8 @@ h1 {
 .flex-container {
   display: flex;
   margin-left: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .flex-container > div {
@@ -40,8 +42,6 @@ h1 {
   height: 40px;
   width: 200px;
   margin-left: 100px;
-
-  /* padding: 0; */
   border: none;
 }
 
@@ -49,26 +49,27 @@ button:hover {
   background-color: red;
 }
 
-.edit:hover{
+.edit:hover {
   font-size: 16px;
   color: red;
 }
-.edit2:hover{
+.edit2:hover {
   color: red;
   text-decoration: underline;
 }
 
-.ridge{
- border-color: black;
+.ridge {
+  border-color: black;
   border-style: ridge;
   height: 350px;
   width: 450px;
   border-width: 0.5px;
-  /* border-radius: 10px; */
+
+  border-style: none;
 }
 input#email {
   height: 40px;
-  width: 370px;
+  width: 400px;
   margin-left: 10px;
   margin-top: 45px;
   border-radius: 15px;
@@ -77,15 +78,161 @@ input#email {
 }
 input#password {
   height: 40px;
-  width: 370px;
+  width: 400px;
   margin-left: 10px;
   border-radius: 15px;
   margin-bottom: 20px;
   background-color: aliceblue;
-
 }
 
-div.sdiv{
-  margin-left: -82px;
+.fdiv {
+  width: 70%;
+}
+div.sdiv {
+  margin-left: -100px;
   margin-top: 80px;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .lft {
+    width: 400px;
+    height: 200px;
+    margin-top: 80px;
+
+    display: block;
+    margin-left: 70px;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .ridge {
+    border-color: black;
+    border-style: ridge;
+    height: 600px;
+    width: 600px;
+    border-width: 0.5px;
+  }
+  input#email {
+    height: 30px;
+    width: 180px;
+    margin-left: 190px;
+    margin-top: 45px;
+    border-radius: 15px;
+
+    background-color: aliceblue;
+  }
+  input#password {
+    height: 30px;
+    width: 180px;
+    margin-left: 190px;
+    border-radius: 15px;
+
+    background-color: aliceblue;
+  }
+
+  .flex-container > div {
+    margin-bottom: -80px;
+  }
+
+  .button {
+    width: 110px;
+    height: 30px;
+    margin-left: 220px;
+  }
+
+  .edit {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 222px;
+  }
+  .edit2 {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 232px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .flex-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .lft {
+    width: 600px;
+    height: 300px;
+    margin-top: 80px;
+
+    display: block;
+    margin-left: 180px;
+    margin-right: auto;
+    width: 115%;
+  }
+
+  h1 {
+    margin-top: 110px;
+    font-size: 60px;
+    margin-left: 190px;
+    width: 100%;
+  }
+
+  .ridge {
+    border-color: black;
+    border-style: ridge;
+    height: 600px;
+    width: 600px;
+    border-width: 0.5px;
+  }
+  input#email {
+    height: 40px;
+    width: 250px;
+    margin-left: 320px;
+    margin-top: 45px;
+    border-radius: 15px;
+
+    background-color: aliceblue;
+  }
+  input#password {
+    height: 40px;
+    width: 250px;
+    margin-left: 320px;
+    border-radius: 15px;
+
+    background-color: aliceblue;
+  }
+
+  .flex-container > div {
+    margin-bottom: -80px;
+  }
+
+  .button {
+    width: 200px;
+    height: 30px;
+    margin-left: 480px;
+  }
+
+  .edit {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 522px;
+  }
+  .edit2 {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 490px;
+  }
 }
